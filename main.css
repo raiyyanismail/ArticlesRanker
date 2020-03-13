@@ -1,0 +1,66 @@
+h1 {
+  color: #12343b;
+  text-align: center;
+}
+
+h2 {
+    color: #2d545e;
+    text-align: center;
+}
+
+h3 {
+    color: #12343b ;
+  text-align: center;
+}
+
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+p {
+    color: whitesmoke;
+  text-align: center;
+}
+
+ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+form {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+
+button {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #c89666; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+
+body {
+  background-color: #e1b382;
+}

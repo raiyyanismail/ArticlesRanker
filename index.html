@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+</head>
+    
+<body>
+    
+    
+    <h1>Articles Ranker</h1>
+
+    <div id="div">
+   
+    <h2 id="title">Press the button below to load an article:</h2>
+        
+    <div id="div1"></div>
+    <div id="rank" style="display:none;">
+        
+        <form action="index.html">
+            <label for="a1">Article 1:</label><br>
+              <select id="a1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+            <label for="a2">Article 2:</label><br>
+              <select id="a2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+            <label for="a3">Article 3:</label><br>
+              <select id="a3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+            <label for="a4">Article 4:</label><br>
+              <select id="a3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+            <label for="a5">Article 5:</label><br>
+              <select id="a5">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+            <button type = "submit">Submit</button>
+        </form>
+        
+        
+        
+        </div>
+        
+    </div>
+    
+    <button type="button" onclick="loadDoc()" id ="next">Load Article</button>
+    <button type="button" onclick="loadRank()" id ="rate" style="display:none">Rate Articles</button>
+    <script src="source.js"></script>
+
+</body>
+</html>
